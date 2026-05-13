@@ -8,6 +8,8 @@ const grid = document.querySelector('#gallery-grid')
 const search = document.querySelector('#search')
 const filters = document.querySelectorAll('[data-filter]')
 const resultCount = document.querySelector('#result-count')
+const carousel = document.querySelector('.pet-carousel')
+const slideButtons = document.querySelectorAll('[data-slide]')
 
 function escapeHtml(value) {
   return String(value)
@@ -111,6 +113,44 @@ document.addEventListener('click', event => {
     }, 1000)
   })
 })
+
+function scrollShowcase(direction = 1) {
+  if (!carousel) return
+  const distance = Math.min(380, carousel.clientWidth * 0.72)
+  const maxScroll = carousel.scrollWidth - carousel.clientWidth
+
+  if (direction > 0 && carousel.scrollLeft >= maxScroll - 8) {
+    carousel.scrollTo({ left: 0, behavior: 'smooth' })
+    return
+  }
+
+  if (direction < 0 && carousel.scrollLeft <= 8) {
+    carousel.scrollTo({ left: maxScroll, behavior: 'smooth' })
+    return
+  }
+
+  carousel.scrollBy({ left: distance * direction, behavior: 'smooth' })
+}
+
+slideButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    scrollShowcase(button.dataset.slide === 'next' ? 1 : -1)
+  })
+})
+
+if (carousel && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  let carouselTimer = window.setInterval(() => scrollShowcase(1), 3600)
+  const pause = () => window.clearInterval(carouselTimer)
+  const resume = () => {
+    window.clearInterval(carouselTimer)
+    carouselTimer = window.setInterval(() => scrollShowcase(1), 3600)
+  }
+
+  carousel.addEventListener('pointerenter', pause)
+  carousel.addEventListener('focusin', pause)
+  carousel.addEventListener('pointerleave', resume)
+  carousel.addEventListener('focusout', resume)
+}
 
 init().catch(error => {
   resultCount.textContent = 'Manifest unavailable'
