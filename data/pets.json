@@ -1,0 +1,708 @@
+﻿{
+    "generated":  "2026-05-13",
+    "total":  85,
+    "collections":  [
+                        {
+                            "key":  "dark, wizard",
+                            "count":  20
+                        },
+                        {
+                            "key":  "orange, animated",
+                            "count":  8
+                        },
+                        {
+                            "key":  "orange, static",
+                            "count":  27
+                        },
+                        {
+                            "key":  "pink, animated",
+                            "count":  20
+                        },
+                        {
+                            "key":  "pink, static",
+                            "count":  10
+                        }
+                    ],
+    "pets":  [
+                 {
+                     "name":  "claude-pet-wizard-dark-01",
+                     "label":  "Wizard Dark 01",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-01.svg",
+                     "bytes":  2778
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-02",
+                     "label":  "Wizard Dark 02",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-02.svg",
+                     "bytes":  2778
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-03",
+                     "label":  "Wizard Dark 03",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-03.svg",
+                     "bytes":  2778
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-04",
+                     "label":  "Wizard Dark 04",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-04.svg",
+                     "bytes":  2778
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-05",
+                     "label":  "Wizard Dark 05",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-05.svg",
+                     "bytes":  2778
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-06",
+                     "label":  "Wizard Dark 06",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-06.svg",
+                     "bytes":  2778
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-07",
+                     "label":  "Wizard Dark 07",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-07.svg",
+                     "bytes":  2778
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-08",
+                     "label":  "Wizard Dark 08",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-08.svg",
+                     "bytes":  2778
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-09",
+                     "label":  "Wizard Dark 09",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-09.svg",
+                     "bytes":  2778
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-10",
+                     "label":  "Wizard Dark 10",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-10.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-11",
+                     "label":  "Wizard Dark 11",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-11.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-12",
+                     "label":  "Wizard Dark 12",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-12.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-13",
+                     "label":  "Wizard Dark 13",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-13.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-14",
+                     "label":  "Wizard Dark 14",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-14.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-15",
+                     "label":  "Wizard Dark 15",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-15.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-16",
+                     "label":  "Wizard Dark 16",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-16.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-17",
+                     "label":  "Wizard Dark 17",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-17.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-18",
+                     "label":  "Wizard Dark 18",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-18.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-19",
+                     "label":  "Wizard Dark 19",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-19.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-wizard-dark-20",
+                     "label":  "Wizard Dark 20",
+                     "series":  "dark",
+                     "group":  "wizard",
+                     "path":  "pets/dark/wizard/claude-pet-wizard-dark-20.svg",
+                     "bytes":  2779
+                 },
+                 {
+                     "name":  "claude-pet-animated-blink",
+                     "label":  "Blink",
+                     "series":  "orange",
+                     "group":  "animated",
+                     "path":  "pets/orange/animated/claude-pet-animated-blink.svg",
+                     "bytes":  1684
+                 },
+                 {
+                     "name":  "claude-pet-animated-bounce",
+                     "label":  "Bounce",
+                     "series":  "orange",
+                     "group":  "animated",
+                     "path":  "pets/orange/animated/claude-pet-animated-bounce.svg",
+                     "bytes":  1681
+                 },
+                 {
+                     "name":  "claude-pet-animated-coder",
+                     "label":  "Coder",
+                     "series":  "orange",
+                     "group":  "animated",
+                     "path":  "pets/orange/animated/claude-pet-animated-coder.svg",
+                     "bytes":  1574
+                 },
+                 {
+                     "name":  "claude-pet-animated-magic",
+                     "label":  "Magic",
+                     "series":  "orange",
+                     "group":  "animated",
+                     "path":  "pets/orange/animated/claude-pet-animated-magic.svg",
+                     "bytes":  2047
+                 },
+                 {
+                     "name":  "claude-pet-animated-party",
+                     "label":  "Party",
+                     "series":  "orange",
+                     "group":  "animated",
+                     "path":  "pets/orange/animated/claude-pet-animated-party.svg",
+                     "bytes":  1918
+                 },
+                 {
+                     "name":  "claude-pet-animated-rocket",
+                     "label":  "Rocket",
+                     "series":  "orange",
+                     "group":  "animated",
+                     "path":  "pets/orange/animated/claude-pet-animated-rocket.svg",
+                     "bytes":  1852
+                 },
+                 {
+                     "name":  "claude-pet-animated-sleep",
+                     "label":  "Sleep",
+                     "series":  "orange",
+                     "group":  "animated",
+                     "path":  "pets/orange/animated/claude-pet-animated-sleep.svg",
+                     "bytes":  1888
+                 },
+                 {
+                     "name":  "claude-pet-animated-wave",
+                     "label":  "Wave",
+                     "series":  "orange",
+                     "group":  "animated",
+                     "path":  "pets/orange/animated/claude-pet-animated-wave.svg",
+                     "bytes":  1531
+                 },
+                 {
+                     "name":  "claude-pet-artist",
+                     "label":  "Artist",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-artist.svg",
+                     "bytes":  1473
+                 },
+                 {
+                     "name":  "claude-pet-astronaut",
+                     "label":  "Astronaut",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-astronaut.svg",
+                     "bytes":  1284
+                 },
+                 {
+                     "name":  "claude-pet-blush",
+                     "label":  "Blush",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-blush.svg",
+                     "bytes":  1429
+                 },
+                 {
+                     "name":  "claude-pet-chef",
+                     "label":  "Chef",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-chef.svg",
+                     "bytes":  1283
+                 },
+                 {
+                     "name":  "claude-pet-coder",
+                     "label":  "Coder",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-coder.svg",
+                     "bytes":  1375
+                 },
+                 {
+                     "name":  "claude-pet-coffee",
+                     "label":  "Coffee",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-coffee.svg",
+                     "bytes":  1359
+                 },
+                 {
+                     "name":  "claude-pet-crown",
+                     "label":  "Crown",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-crown.svg",
+                     "bytes":  1342
+                 },
+                 {
+                     "name":  "claude-pet-detective",
+                     "label":  "Detective",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-detective.svg",
+                     "bytes":  1358
+                 },
+                 {
+                     "name":  "claude-pet-explorer",
+                     "label":  "Explorer",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-explorer.svg",
+                     "bytes":  1340
+                 },
+                 {
+                     "name":  "claude-pet-gamer",
+                     "label":  "Gamer",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-gamer.svg",
+                     "bytes":  1288
+                 },
+                 {
+                     "name":  "claude-pet-ghost",
+                     "label":  "Ghost",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-ghost.svg",
+                     "bytes":  1119
+                 },
+                 {
+                     "name":  "claude-pet-happy",
+                     "label":  "Happy",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-happy.svg",
+                     "bytes":  1314
+                 },
+                 {
+                     "name":  "claude-pet-heart",
+                     "label":  "Heart",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-heart.svg",
+                     "bytes":  1189
+                 },
+                 {
+                     "name":  "claude-pet-mail",
+                     "label":  "Mail",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-mail.svg",
+                     "bytes":  1237
+                 },
+                 {
+                     "name":  "claude-pet-mechanic",
+                     "label":  "Mechanic",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-mechanic.svg",
+                     "bytes":  1448
+                 },
+                 {
+                     "name":  "claude-pet-music",
+                     "label":  "Music",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-music.svg",
+                     "bytes":  1379
+                 },
+                 {
+                     "name":  "claude-pet-ninja",
+                     "label":  "Ninja",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-ninja.svg",
+                     "bytes":  1407
+                 },
+                 {
+                     "name":  "claude-pet-party",
+                     "label":  "Party",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-party.svg",
+                     "bytes":  1463
+                 },
+                 {
+                     "name":  "claude-pet-pirate",
+                     "label":  "Pirate",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-pirate.svg",
+                     "bytes":  1410
+                 },
+                 {
+                     "name":  "claude-pet-raincoat",
+                     "label":  "Raincoat",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-raincoat.svg",
+                     "bytes":  1310
+                 },
+                 {
+                     "name":  "claude-pet-rocket",
+                     "label":  "Rocket",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-rocket.svg",
+                     "bytes":  1392
+                 },
+                 {
+                     "name":  "claude-pet-scientist",
+                     "label":  "Scientist",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-scientist.svg",
+                     "bytes":  1430
+                 },
+                 {
+                     "name":  "claude-pet-skater",
+                     "label":  "Skater",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-skater.svg",
+                     "bytes":  1328
+                 },
+                 {
+                     "name":  "claude-pet-sleepy",
+                     "label":  "Sleepy",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-sleepy.svg",
+                     "bytes":  1380
+                 },
+                 {
+                     "name":  "claude-pet-teacher",
+                     "label":  "Teacher",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-teacher.svg",
+                     "bytes":  1240
+                 },
+                 {
+                     "name":  "claude-pet-winter",
+                     "label":  "Winter",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-winter.svg",
+                     "bytes":  1356
+                 },
+                 {
+                     "name":  "claude-pet-wizard",
+                     "label":  "Wizard",
+                     "series":  "orange",
+                     "group":  "static",
+                     "path":  "pets/orange/static/claude-pet-wizard.svg",
+                     "bytes":  1517
+                 },
+                 {
+                     "name":  "claude-girl-animated-blink",
+                     "label":  "Blink",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-blink.svg",
+                     "bytes":  1768
+                 },
+                 {
+                     "name":  "claude-girl-animated-bounce",
+                     "label":  "Bounce",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-bounce.svg",
+                     "bytes":  1606
+                 },
+                 {
+                     "name":  "claude-girl-animated-bow",
+                     "label":  "Bow",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-bow.svg",
+                     "bytes":  1457
+                 },
+                 {
+                     "name":  "claude-girl-animated-dance",
+                     "label":  "Dance",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-dance.svg",
+                     "bytes":  1692
+                 },
+                 {
+                     "name":  "claude-girl-animated-flower",
+                     "label":  "Flower",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-flower.svg",
+                     "bytes":  1748
+                 },
+                 {
+                     "name":  "claude-girl-animated-heart",
+                     "label":  "Heart",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-heart.svg",
+                     "bytes":  1366
+                 },
+                 {
+                     "name":  "claude-girl-animated-moon",
+                     "label":  "Moon",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-moon.svg",
+                     "bytes":  1836
+                 },
+                 {
+                     "name":  "claude-girl-animated-reader",
+                     "label":  "Reader",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-reader.svg",
+                     "bytes":  1452
+                 },
+                 {
+                     "name":  "claude-girl-animated-star",
+                     "label":  "Star",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-star.svg",
+                     "bytes":  1668
+                 },
+                 {
+                     "name":  "claude-girl-animated-wave",
+                     "label":  "Wave",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-animated-wave.svg",
+                     "bytes":  1538
+                 },
+                 {
+                     "name":  "claude-girl-beret-sway",
+                     "label":  "Beret Sway",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-beret-sway.svg",
+                     "bytes":  1697
+                 },
+                 {
+                     "name":  "claude-girl-bonnet-blink",
+                     "label":  "Bonnet Blink",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-bonnet-blink.svg",
+                     "bytes":  1809
+                 },
+                 {
+                     "name":  "claude-girl-braid-wave",
+                     "label":  "Braid Wave",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-braid-wave.svg",
+                     "bytes":  1976
+                 },
+                 {
+                     "name":  "claude-girl-cap-dance",
+                     "label":  "Cap Dance",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-cap-dance.svg",
+                     "bytes":  1715
+                 },
+                 {
+                     "name":  "claude-girl-dress-twirl",
+                     "label":  "Dress Twirl",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-dress-twirl.svg",
+                     "bytes":  1919
+                 },
+                 {
+                     "name":  "claude-girl-flower-hat",
+                     "label":  "Flower Hat",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-flower-hat.svg",
+                     "bytes":  1990
+                 },
+                 {
+                     "name":  "claude-girl-ribbon-skip",
+                     "label":  "Ribbon Skip",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-ribbon-skip.svg",
+                     "bytes":  1877
+                 },
+                 {
+                     "name":  "claude-girl-sunhat-bounce",
+                     "label":  "Sunhat Bounce",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-sunhat-bounce.svg",
+                     "bytes":  1793
+                 },
+                 {
+                     "name":  "claude-girl-umbrella-dress",
+                     "label":  "Umbrella Dress",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-umbrella-dress.svg",
+                     "bytes":  2051
+                 },
+                 {
+                     "name":  "claude-girl-witch-sparkle",
+                     "label":  "Witch Sparkle",
+                     "series":  "pink",
+                     "group":  "animated",
+                     "path":  "pets/pink/animated/claude-girl-witch-sparkle.svg",
+                     "bytes":  1972
+                 },
+                 {
+                     "name":  "claude-girl-artist",
+                     "label":  "Artist",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-artist.svg",
+                     "bytes":  1445
+                 },
+                 {
+                     "name":  "claude-girl-bow",
+                     "label":  "Bow",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-bow.svg",
+                     "bytes":  1389
+                 },
+                 {
+                     "name":  "claude-girl-dancer",
+                     "label":  "Dancer",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-dancer.svg",
+                     "bytes":  1199
+                 },
+                 {
+                     "name":  "claude-girl-flower",
+                     "label":  "Flower",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-flower.svg",
+                     "bytes":  1558
+                 },
+                 {
+                     "name":  "claude-girl-heart",
+                     "label":  "Heart",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-heart.svg",
+                     "bytes":  1178
+                 },
+                 {
+                     "name":  "claude-girl-moon",
+                     "label":  "Moon",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-moon.svg",
+                     "bytes":  1355
+                 },
+                 {
+                     "name":  "claude-girl-princess",
+                     "label":  "Princess",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-princess.svg",
+                     "bytes":  1395
+                 },
+                 {
+                     "name":  "claude-girl-reader",
+                     "label":  "Reader",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-reader.svg",
+                     "bytes":  1208
+                 },
+                 {
+                     "name":  "claude-girl-sailor",
+                     "label":  "Sailor",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-sailor.svg",
+                     "bytes":  1279
+                 },
+                 {
+                     "name":  "claude-girl-star",
+                     "label":  "Star",
+                     "series":  "pink",
+                     "group":  "static",
+                     "path":  "pets/pink/static/claude-girl-star.svg",
+                     "bytes":  1179
+                 }
+             ]
+}

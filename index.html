@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WellAgentPets - Claude Pet SVG Gallery</title>
+  <meta name="description" content="WellAgentPets is an unofficial pixel-style Claude pet SVG gallery with orange, dark wizard, pink, and animated collections.">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="pets/dark/wizard/claude-pet-wizard-dark-01.svg">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="WellAgentPets home">
+      <img src="pets/dark/wizard/claude-pet-wizard-dark-01.svg" alt="">
+      <span>WellAgentPets</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#gallery">Gallery</a>
+      <a href="#collections">Collections</a>
+      <a href="#usage">Usage</a>
+      <a href="https://github.com/Harzva/WellAgentPets">GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Unofficial Agent Pet SVG Wall</p>
+        <h1>把 Agent 工具的角落，点亮成一面小宠物墙。</h1>
+        <p class="lede">85 个 pixel-style SVG，汇合橙色 Claude pet、粉色角色、黑色 wizard 和动效版本。适合放进 README、仪表盘、教程页、空状态、状态卡片和本地 Agent 工作台。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#gallery">浏览 SVG 墙</a>
+          <a class="button button-secondary" href="https://github.com/Harzva/WellAgentPets/archive/refs/heads/main.zip">下载仓库</a>
+        </div>
+      </div>
+      <div class="hero-stage" aria-label="Featured pets">
+        <div class="stage-label">PET SPECIMEN WALL</div>
+        <img class="pet pet-a" src="pets/dark/wizard/claude-pet-wizard-dark-08.svg" alt="Dark wizard Claude pet">
+        <img class="pet pet-b" src="pets/orange/static/claude-pet-coder.svg" alt="Coder Claude pet">
+        <img class="pet pet-c" src="pets/pink/static/claude-girl-princess.svg" alt="Pink Claude girl pet">
+        <img class="pet pet-d" src="pets/orange/animated/claude-pet-animated-rocket.svg" alt="Animated rocket Claude pet">
+        <div class="stage-note">SVG only · pixel-ready · GitHub Pages</div>
+      </div>
+    </section>
+
+    <section class="stats-panel" aria-label="Collection summary">
+      <div><strong id="total-count">85</strong><span>Total SVGs</span></div>
+      <div><strong>5</strong><span>Collections</span></div>
+      <div><strong>28</strong><span>Motion + wizard</span></div>
+      <div><strong>MIT</strong><span>Repo license</span></div>
+    </section>
+
+    <section id="collections" class="collections-section">
+      <div class="section-head">
+        <p class="eyebrow">Collections</p>
+        <h2>五组小宠物，按场景直接取用。</h2>
+      </div>
+      <div class="collection-grid" aria-label="Collection previews">
+        <article class="collection-card">
+          <div class="pet-strip">
+            <img src="pets/orange/static/claude-pet-coder.svg" alt="">
+            <img src="pets/orange/static/claude-pet-happy.svg" alt="">
+            <img src="pets/orange/static/claude-pet-heart.svg" alt="">
+          </div>
+          <span>Orange Static</span>
+          <h3>27 个温暖像素宠物</h3>
+        </article>
+        <article class="collection-card is-dark">
+          <div class="pet-strip">
+            <img src="pets/dark/wizard/claude-pet-wizard-dark-04.svg" alt="">
+            <img src="pets/dark/wizard/claude-pet-wizard-dark-11.svg" alt="">
+            <img src="pets/dark/wizard/claude-pet-wizard-dark-18.svg" alt="">
+          </div>
+          <span>Dark Wizard</span>
+          <h3>20 个黑色主题 wizard</h3>
+        </article>
+        <article class="collection-card">
+          <div class="pet-strip">
+            <img src="pets/pink/static/claude-girl-princess.svg" alt="">
+            <img src="pets/pink/static/claude-girl-flower.svg" alt="">
+            <img src="pets/pink/static/claude-girl-reader.svg" alt="">
+          </div>
+          <span>Pink Static</span>
+          <h3>10 个粉色角色宠物</h3>
+        </article>
+        <article class="collection-card">
+          <div class="pet-strip">
+            <img src="pets/orange/animated/claude-pet-animated-rocket.svg" alt="">
+            <img src="pets/orange/animated/claude-pet-animated-wave.svg" alt="">
+            <img src="pets/orange/animated/claude-pet-animated-party.svg" alt="">
+          </div>
+          <span>Orange Animated</span>
+          <h3>8 个轻量动效 SVG</h3>
+        </article>
+        <article class="collection-card">
+          <div class="pet-strip">
+            <img src="pets/pink/animated/claude-girl-witch-sparkle.svg" alt="">
+            <img src="pets/pink/animated/claude-girl-animated-heart.svg" alt="">
+            <img src="pets/pink/animated/claude-girl-animated-dance.svg" alt="">
+          </div>
+          <span>Pink Animated</span>
+          <h3>20 个粉色动效版本</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="section-head">
+        <p class="eyebrow">SVG Wall</p>
+        <h2>搜索、筛选、复制路径，一屏完成。</h2>
+        <p>所有文件都是独立 SVG，可直接用相对路径嵌入 Markdown、HTML、React/Vue 组件或静态站点。</p>
+      </div>
+
+      <div class="toolbar" role="search">
+        <input id="search" type="search" placeholder="Search pets, e.g. wizard, coder, pink, animated" autocomplete="off">
+        <div class="filters" aria-label="Collection filters">
+          <button class="is-active" data-filter="all" type="button">All <span>85</span></button>
+          <button data-filter="orange" type="button">Orange <span>35</span></button>
+          <button data-filter="dark" type="button">Dark <span>20</span></button>
+          <button data-filter="pink" type="button">Pink <span>30</span></button>
+          <button data-filter="animated" type="button">Animated <span>28</span></button>
+        </div>
+      </div>
+
+      <p id="result-count" class="result-count" aria-live="polite">Loading pets...</p>
+      <div id="gallery-grid" class="gallery-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="usage" class="usage-section">
+      <div class="section-head">
+        <p class="eyebrow">Usage</p>
+        <h2>把小宠物放进你的项目。</h2>
+      </div>
+      <div class="usage-grid">
+        <div class="code-card">
+          <span>Markdown</span>
+          <pre><code>![Coder pet](pets/orange/static/claude-pet-coder.svg)</code></pre>
+        </div>
+        <div class="code-card">
+          <span>HTML</span>
+          <pre><code>&lt;img src="pets/dark/wizard/claude-pet-wizard-dark-01.svg" alt="Wizard pet"&gt;</code></pre>
+        </div>
+        <div class="code-card">
+          <span>CSS</span>
+          <pre><code>img.agent-pet {
+  image-rendering: pixelated;
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Unofficial fan-made SVG collection. Not affiliated with Anthropic or Claude.</p>
+    <a href="NOTICE.md">Notice</a>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
