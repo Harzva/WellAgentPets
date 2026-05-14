@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>WellAgentPets - Claude Pet SVG Gallery</title>
   <meta name="description" content="WellAgentPets is an unofficial pixel-style Claude pet SVG gallery with orange, dark wizard, pink, and animated collections.">
+  <meta name="theme-color" content="#f6fbf7">
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="icon" href="pets/dark/wizard/claude-pet-wizard-dark-01.svg">
 </head>
@@ -32,8 +33,14 @@
           <span>点亮成小宠物墙</span>
         </h1>
         <p class="lede">85 个 pixel-style SVG，汇合橙色 Claude pet、粉色角色、黑色 wizard 和动效版本。适合放进 README、仪表盘、教程页、空状态和本地 Agent 工作台。</p>
+        <div class="hero-badges" aria-label="Repository highlights">
+          <span>SVG-only</span>
+          <span>可复制 Markdown</span>
+          <span>无构建依赖</span>
+        </div>
         <div class="hero-actions">
           <a class="button button-primary" href="#gallery">浏览 SVG 墙</a>
+          <button class="button button-tertiary" type="button" data-random-pet>随机挑一只</button>
           <a class="button button-secondary" href="https://github.com/Harzva/WellAgentPets/archive/refs/heads/main.zip">下载仓库</a>
         </div>
       </div>
@@ -43,7 +50,7 @@
         <img class="pet pet-b" src="pets/orange/static/claude-pet-coder.svg" alt="Coder Claude pet">
         <img class="pet pet-c" src="pets/pink/static/claude-girl-princess.svg" alt="Pink Claude girl pet">
         <img class="pet pet-d" src="pets/orange/animated/claude-pet-animated-rocket.svg" alt="Animated rocket Claude pet">
-        <div class="stage-note">SVG only · pixel-ready · GitHub Pages</div>
+        <div class="stage-note">Preview · copy · embed</div>
       </div>
     </section>
 
@@ -59,39 +66,39 @@
         </div>
       </div>
       <div class="pet-carousel" tabindex="0" aria-label="Scrollable SVG pets">
-        <a class="slide-pet is-large" href="pets/dark/wizard/claude-pet-wizard-dark-08.svg">
+        <a class="slide-pet is-large" href="pets/dark/wizard/claude-pet-wizard-dark-08.svg" data-open-pet="pets/dark/wizard/claude-pet-wizard-dark-08.svg">
           <img src="pets/dark/wizard/claude-pet-wizard-dark-08.svg" alt="Dark wizard pet">
           <span>Wizard 08</span>
         </a>
-        <a class="slide-pet" href="pets/orange/static/claude-pet-coder.svg">
+        <a class="slide-pet" href="pets/orange/static/claude-pet-coder.svg" data-open-pet="pets/orange/static/claude-pet-coder.svg">
           <img src="pets/orange/static/claude-pet-coder.svg" alt="Coder pet">
           <span>Coder</span>
         </a>
-        <a class="slide-pet" href="pets/pink/static/claude-girl-princess.svg">
+        <a class="slide-pet" href="pets/pink/static/claude-girl-princess.svg" data-open-pet="pets/pink/static/claude-girl-princess.svg">
           <img src="pets/pink/static/claude-girl-princess.svg" alt="Princess pet">
           <span>Princess</span>
         </a>
-        <a class="slide-pet" href="pets/orange/animated/claude-pet-animated-rocket.svg">
+        <a class="slide-pet" href="pets/orange/animated/claude-pet-animated-rocket.svg" data-open-pet="pets/orange/animated/claude-pet-animated-rocket.svg">
           <img src="pets/orange/animated/claude-pet-animated-rocket.svg" alt="Rocket pet">
           <span>Rocket</span>
         </a>
-        <a class="slide-pet is-large" href="pets/pink/animated/claude-girl-witch-sparkle.svg">
+        <a class="slide-pet is-large" href="pets/pink/animated/claude-girl-witch-sparkle.svg" data-open-pet="pets/pink/animated/claude-girl-witch-sparkle.svg">
           <img src="pets/pink/animated/claude-girl-witch-sparkle.svg" alt="Witch sparkle pet">
           <span>Witch</span>
         </a>
-        <a class="slide-pet" href="pets/orange/static/claude-pet-astronaut.svg">
+        <a class="slide-pet" href="pets/orange/static/claude-pet-astronaut.svg" data-open-pet="pets/orange/static/claude-pet-astronaut.svg">
           <img src="pets/orange/static/claude-pet-astronaut.svg" alt="Astronaut pet">
           <span>Astronaut</span>
         </a>
-        <a class="slide-pet" href="pets/orange/animated/claude-pet-animated-wave.svg">
+        <a class="slide-pet" href="pets/orange/animated/claude-pet-animated-wave.svg" data-open-pet="pets/orange/animated/claude-pet-animated-wave.svg">
           <img src="pets/orange/animated/claude-pet-animated-wave.svg" alt="Wave pet">
           <span>Wave</span>
         </a>
-        <a class="slide-pet" href="pets/pink/animated/claude-girl-ribbon-skip.svg">
+        <a class="slide-pet" href="pets/pink/animated/claude-girl-ribbon-skip.svg" data-open-pet="pets/pink/animated/claude-girl-ribbon-skip.svg">
           <img src="pets/pink/animated/claude-girl-ribbon-skip.svg" alt="Ribbon skip pet">
           <span>Ribbon</span>
         </a>
-        <a class="slide-pet is-large" href="pets/orange/static/claude-pet-wizard.svg">
+        <a class="slide-pet is-large" href="pets/orange/static/claude-pet-wizard.svg" data-open-pet="pets/orange/static/claude-pet-wizard.svg">
           <img src="pets/orange/static/claude-pet-wizard.svg" alt="Orange wizard pet">
           <span>Wizard</span>
         </a>
@@ -167,13 +174,20 @@
       </div>
 
       <div class="toolbar" role="search">
-        <input id="search" type="search" placeholder="Search pets, e.g. wizard, coder, pink, animated" autocomplete="off">
+        <label class="search-box" for="search">
+          <span>Search</span>
+          <input id="search" type="search" placeholder="wizard, coder, pink, animated" autocomplete="off">
+        </label>
+        <div class="toolbar-actions" aria-label="Gallery quick actions">
+          <button type="button" data-random-pet>Random</button>
+          <button type="button" data-clear-search>Clear</button>
+        </div>
         <div class="filters" aria-label="Collection filters">
-          <button class="is-active" data-filter="all" type="button">All <span>85</span></button>
-          <button data-filter="orange" type="button">Orange <span>35</span></button>
-          <button data-filter="dark" type="button">Dark <span>20</span></button>
-          <button data-filter="pink" type="button">Pink <span>30</span></button>
-          <button data-filter="animated" type="button">Animated <span>28</span></button>
+          <button class="is-active" data-filter="all" type="button" aria-pressed="true">All <span data-count="all">85</span></button>
+          <button data-filter="orange" type="button" aria-pressed="false">Orange <span data-count="orange">35</span></button>
+          <button data-filter="dark" type="button" aria-pressed="false">Dark <span data-count="dark">20</span></button>
+          <button data-filter="pink" type="button" aria-pressed="false">Pink <span data-count="pink">30</span></button>
+          <button data-filter="animated" type="button" aria-pressed="false">Animated <span data-count="animated">28</span></button>
         </div>
       </div>
 
@@ -204,6 +218,23 @@
       </div>
     </section>
   </main>
+
+  <dialog id="pet-dialog" class="pet-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" data-close-dialog aria-label="Close preview">×</button>
+    <div class="dialog-preview">
+      <img id="dialog-image" src="pets/dark/wizard/claude-pet-wizard-dark-01.svg" alt="">
+    </div>
+    <div class="dialog-info">
+      <p id="dialog-meta" class="eyebrow">dark / wizard</p>
+      <h2 id="dialog-title">Wizard Dark 01</h2>
+      <code id="dialog-path">pets/dark/wizard/claude-pet-wizard-dark-01.svg</code>
+      <div class="dialog-actions">
+        <button type="button" data-dialog-copy="path">Copy path</button>
+        <button type="button" data-dialog-copy="markdown">Copy Markdown</button>
+        <a id="dialog-open" href="pets/dark/wizard/claude-pet-wizard-dark-01.svg" target="_blank" rel="noreferrer">Open SVG</a>
+      </div>
+    </div>
+  </dialog>
 
   <footer class="site-footer">
     <p>Unofficial fan-made SVG collection. Not affiliated with Anthropic or Claude.</p>

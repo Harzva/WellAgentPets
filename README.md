@@ -25,7 +25,7 @@
 
 ## What Is This
 
-WellAgentPets 是一个面向 README、教程页、仪表盘、状态卡片和本地 Agent 工作台的 SVG 小宠物素材库。仓库把原来的橙色 Claude pets、粉色角色、动效 SVG，以及黑色主题 wizard 压缩包整理成统一目录，并提供一个可搜索、可筛选、可复制路径的 GitHub Pages 展示页。
+WellAgentPets 是一个面向 README、教程页、仪表盘、状态卡片和本地 Agent 工作台的 SVG 小宠物素材库。仓库把原来的橙色 Claude pets、粉色角色、动效 SVG，以及黑色主题 wizard 压缩包整理成统一目录，并提供一个可搜索、可筛选、可预览、可复制路径和 Markdown 的 GitHub Pages 展示页。
 
 > This is an unofficial fan-made SVG collection. It is not affiliated with Anthropic or Claude.
 
@@ -55,6 +55,17 @@ Open the GitHub Pages wall:
 **https://harzva.github.io/WellAgentPets/**
 
 The page reads `data/pets.json`, renders all 85 SVGs, and supports quick filtering by Orange, Dark, Pink, and Animated collections.
+
+## Gallery Features
+
+| Feature | Detail |
+| --- | --- |
+| Search and filters | Filter by keyword, color family, dark wizard, or animated SVGs |
+| Detail preview | Open any pet in a larger preview dialog before copying |
+| Copy-ready snippets | Copy a raw path from cards, or copy Markdown from the detail dialog |
+| Random picker | Pick a pet instantly from the hero or gallery toolbar |
+| Keyboard search | Press `/` on the gallery page to focus search |
+| Static hosting | No build step, no framework runtime, ready for GitHub Pages |
 
 ## Usage
 
